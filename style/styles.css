@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: auto;
+}
+
+
+.logo{
+    margin: 5px;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.menu ul li{
+    font-size: 20px;
+    margin: 5px;
+}
+
+
+
+/* banner css */
+.bgimage{
+    background-image: url('../images/beach-8003636_1280.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    position: relative;
+}
+
+.hero_text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.hero_title{
+    font-size: 4.5rem;
+}
+
+.hero_desc{
+    font-size: 2rem;
+}
+
+/* en of banner css */
+
+#abouts{
+    text-align: center;
+}
+
+/* .row2{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 5px;
+} */
+
+.about{
+    position: relative;
+    width: 100%;
+}
+
+.row2{
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  border: 1px solid green ;
+  left: 10%;
+  right: 10%;
+  
+}
+
+.about_me{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    row-gap: 1px;
+}
+
+.two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
