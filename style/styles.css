@@ -4,17 +4,16 @@
 }
 
 
+
 .logo{
     margin: 5px;
 }
 
-
-
 .container{
     display: flex;
-    justify-content: space-around;
-    border: 1px solid red;
-    padding: 15px;
+    justify-content: space-between;
+    padding: 20px 0px 0px 0px;
+    margin: 0px 100px 0px 100px;
 }
 
 .menu ul{
@@ -35,7 +34,7 @@
     background-image: url('../images/beach-8003636_1280.webp');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -58,41 +57,123 @@
 
 /* en of banner css */
 
-#abouts{
+
+/* about section css */
+
+
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    margin-top: 50px;
+}
+
+
+.description{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    width: 100vh;
+    border: 2px solid rgb(17, 172, 219);
+}
+
+
+.mYreason{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row: 10px;
+    border: 2px solid red;
+}
+
+.reason{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px;
+}
+
+.MyImage{
+    border: 2px solid rgb(200, 255, 0);
+    width: 550px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+
+.titls{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.myText{
+    margin: 25px 0px 25px 0px;
+}
+
+
+.icon1{
+    border: 2px solid rgb(247, 0, 255);
+    background-color: rgb(230, 65, 0);
+    border-radius: 100% 100% 100% 100%;
+
+}
+
+
+.img-fluid{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 100% 100% 100% 100%;
+}
+
+
+/* section service */
+
+.service-section{
+    margin-top: 50px;
+}
+
+.service-tilte{
     text-align: center;
 }
 
-/* .row2{
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 5px;
-} */
-
-.about{
-    position: relative;
-    width: 100%;
-}
-
-.row2{
-  position: absolute;
-  display: grid;
-  grid-template-columns: auto auto;
-  column-gap: 10px;
-  border: 1px solid green ;
-  left: 10%;
-  right: 10%;
-  
-}
-
-.about_me{
-    display: grid;
-    grid-template-rows: auto auto auto;
-    row-gap: 1px;
-}
-
-.two{
+.service-grid{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 380px;
+    margin: 15px;
+    font-family: arial;
+  }
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
 
