@@ -57,11 +57,13 @@
 
 /* about section css */
 
+
+
+
 .about-section {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid green;
   margin-top: 50px;
 }
 
@@ -70,14 +72,12 @@
   align-items: start;
   flex-direction: column;
   width: 100vh;
-  border: 2px solid rgb(17, 172, 219);
 }
 
 .mYreason {
   display: grid;
   grid-template-rows: auto auto auto;
   grid-row: 10px;
-  border: 2px solid red;
 }
 
 .reason {
@@ -88,7 +88,6 @@
 }
 
 .MyImage {
-  border: 2px solid rgb(200, 255, 0);
   width: 550px;
 }
 
@@ -110,7 +109,6 @@ h3 {
 }
 
 .icon1 {
-  border: 2px solid rgb(247, 0, 255);
   background-color: rgb(230, 65, 0);
   border-radius: 100% 100% 100% 100%;
 }
@@ -122,10 +120,41 @@ h3 {
   border-radius: 100% 100% 100% 100%;
 }
 
+
+/* media queire */
+
+@media screen and (max-width: 800px) {
+  .about-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+  }
+
+  .menu{
+    display: none;
+  }
+
+  a{
+    font-size: 4.5rem;
+    display: block;
+    text-align: center;
+  }
+
+
+}
+
 /* section service */
+.main{
+    display: flex;
+    align-items:center ;
+    justify-content: space-between;
+    flex-direction: column;
+}
 
 .service-section {
   margin-top: 50px;
+  width: 100%;
 }
 
 .service-tilte {
@@ -144,9 +173,8 @@ h3 {
   font-family: arial;
 }
 
-.price {
-  color: grey;
-  font-size: 22px;
+.sub-title{
+  margin: 5px;
 }
 
 .card button {
@@ -270,3 +298,7 @@ footer {
 /* Example for animations : https://www.graphicpie.com/css-text-hover-effects */
 
 /* FOOTER SECTION END <======== */
+
+
+
+
